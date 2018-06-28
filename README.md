@@ -12,6 +12,6 @@ Clone the project to your home folder on your server and check instructions in s
 
 #### Supported systems
 
-⋅⋅\* Google Cloud Services MEAN stack server by Bitnami (Debian)
+- Google Cloud Services MEAN stack server by Bitnami (Debian)
 
-_More will be added_
+_**More scripts will be added!**_
