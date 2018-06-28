@@ -4,7 +4,7 @@ All in one Bitcoin Lightning Network installer bash scripts
 
 ## Getting Started
 
-Here you will find diffferent installers for simple All-In-One installation of Bitcoin Lightning Network on different systems.
+Here you will find different installers for simple All-In-One installation of Bitcoin Lightning Network on different systems.
 
 ### Installing
 
