@@ -9,3 +9,9 @@ Here you will find diffferent installers for simple All-In-One installation of B
 ### Installing
 
 Clone the project to your home folder on your server and check instructions in scripts/ folder for specific installer
+
+#### Supported systems
+
+⋅⋅\* Google Cloud Services MEAN stack server by Bitnami (Debian)
+
+_More will be added_
