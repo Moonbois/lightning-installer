@@ -1,4 +1,5 @@
-#Google Cloud MEAN stack (Bitnami) LND instalation
+# Google Cloud MEAN stack (Bitnami) LND instalation
+
 This script is tested on Google Cloud Services MEAN stack by Bitnami
 
 ## Getting Started
