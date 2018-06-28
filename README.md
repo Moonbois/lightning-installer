@@ -8,4 +8,4 @@ Here you will find diffferent installers for simple All-In-One installation of B
 
 ### Installing
 
-Check instructions in scripts/ folder for specific installer
+Clone the project to your home folder on your server and check instructions in scripts/ folder for specific installer
