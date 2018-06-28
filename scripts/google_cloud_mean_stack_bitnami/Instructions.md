@@ -38,5 +38,5 @@ After bitcoin node is fully synced use this command to start your lightning node
 
 ```
 immortal lightningd
-immortal charged --api-token mySecretToken --db-path /home/bitnami/chargedb/charge.db
+immortal charged --api-token mySecretToken --db-path ~/chargedb/charge.db
 ```
