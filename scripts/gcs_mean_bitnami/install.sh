@@ -45,11 +45,11 @@ sudo ln -s ~/builds/lightning/cli/lightning-cli lightning-cli
 source ~/.bashrc
 source ~/.profile
 cd ~
-sudo npm i -g npm 
+sudo npm i -g npm
 sudo npm install -g forever
 #lighting charge does not want to install outside of /opt/bitnami/nodejs/lib folder
 cd /opt/bitnami/nodejs/lib
-sudo npm install -g lightning-charge
+sudo npm install lightning-charge
 cd ~
 mkdir lightning-logs
 mkdir chargedb
