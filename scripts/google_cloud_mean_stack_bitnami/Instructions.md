@@ -10,7 +10,8 @@ This is a full installer! It will install full bitcoin node, a lightning node an
 
 You need to have MEAN stack server by Bitnami deployed on Google Cloud Services, with port 9735 open.
 
-##Instalation
+## Instalation
+
 Simply follow these steps
 
 First step
@@ -25,7 +26,7 @@ Second step
 Install by running ./install.sh
 ```
 
-####Now wait for about 12+ hours for bitcoin node to fully sync.
+#### Now wait for about 12+ hours for bitcoin node to fully sync.
 
 To check bitcoin node syncing progress use
 
