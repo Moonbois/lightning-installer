@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Running install script for Ubuntu 16.04 LTS based systems"
+echo "Running install script for Ubuntu 16.04 LTS systems"
 #Node.JS instalation
 cd ~
 echo "Installing Node.JS"

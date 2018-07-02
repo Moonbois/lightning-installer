@@ -1,6 +1,6 @@
 # Google Cloud MEAN stack (Bitnami) LND instalation
 
-This script is tested on Debian 9 (strech)
+This script is tested on Debian 9 (stretch)
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ This is a full installer! It will install full bitcoin node, a lightning node an
 
 ### Prerequisites
 
-Freshly deployed Debian 9 (strech), with port 9735 open.
+Freshly deployed Debian 9 (stretch), with port 9735 open.
 
 ## Instalation
 
