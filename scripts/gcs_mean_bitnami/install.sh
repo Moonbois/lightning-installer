@@ -1,4 +1,4 @@
-#install script for debian based systems
+#install script for debian based systems (Optimized for MEAN stack server by Bitnami on Google Cloud services)
 #ufw installation
 cd ~
 sudo apt-get update
@@ -57,10 +57,3 @@ mkdir .lightning
 cp ~/lightning-installer/scripts/gcs_mean_bitnami/config ~/.lightning/
 immortal bitcoind --daemon
 # wait 12+ hours for bitcoin node to fully sync
-
-
-
-#crontab -e
-#@reboot immortal bitcoind --daemon
-#@reboot immortal lightningd
-#@reboot immortal charged --api-token mySecretToken --db-path /home/bitnami/chargedb/charge.db
