@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Running install script for Debian 9 (stretch) based systems"
+echo "Running install script for Debian 9 (stretch) systems"
 #Node.JS instalation
 cd ~
 echo "Installing Node.JS"
