@@ -17,19 +17,23 @@ Simply follow these steps
 First step
 
 ```
-Login as root (su)
+Edit the values in config file (This is for your Lightning Node)
 ```
 
 Second step
 
 ```
-Edit the values in config file (This is for your Lightning Node)
-```
-
-Third step
-
-```
 Install by running ./install.sh
+```
+
+Third step (Installing lightning-charge)
+
+```
+login as root by running command su
+```
+
+```
+Run ./install-charge.sh
 ```
 
 #### Now wait for about 12+ hours for bitcoin node to fully sync.

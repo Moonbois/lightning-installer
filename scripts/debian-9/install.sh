@@ -61,13 +61,9 @@ echo "Finishing up..."
 cd ~
 sudo npm i -g npm
 sudo npm install -g forever
-#lighting charge does not want to install outside of /usr/lib folder and needs root access
-cd /usr/lib
-sudo npm install lightning-charge
-cd ~
 mkdir lightning-logs
 mkdir chargedb
 mkdir .lightning
 cp ~/lightning-installer/scripts/gcs_mean_bitnami/config ~/.lightning/
 immortal bitcoind --daemon
-# wait 12+ hours for bitcoin node to fully sync
+echo "Installation completed! Now wait 12+ hours for bitcoin node to fully sync!"
