@@ -5,7 +5,7 @@ All-In-One Bitcoin Lightning Network installer bash scripts
 ## Getting Started
 
 Here you will find different installers for simple All-In-One installation of Bitcoin Lightning Network on different systems.
-Installs Bitcoin Core -> c-lightning -> lightning-charge and all required dependencies.
+Installs [Bitcoin Core](https://bitcoin.org/en/ 'Bitcoin Core') -> [c-lightning](https://github.com/ElementsProject/lightning 'c-lightning') -> [lightning-charge](https://github.com/ElementsProject/lightning-charge 'lightning-charge') and all required dependencies.
 
 ### Installing
 
