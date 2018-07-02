@@ -64,4 +64,4 @@ mkdir chargedb
 mkdir .lightning
 cp ~/lightning-installer/scripts/gcs_mean_bitnami/config ~/.lightning/
 immortal bitcoind --daemon
-# wait 12+ hours for bitcoin node to fully sync
+echo "Installation completed! Now wait 12+ hours for bitcoin node to fully sync!"
