@@ -17,10 +17,16 @@ Simply follow these steps
 First step
 
 ```
-Edit the values in config file (This is for your Lightning Node)
+Login as root (su)
 ```
 
 Second step
+
+```
+Edit the values in config file (This is for your Lightning Node)
+```
+
+Third step
 
 ```
 Install by running ./install.sh

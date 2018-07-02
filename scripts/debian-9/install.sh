@@ -61,9 +61,7 @@ echo "Finishing up..."
 cd ~
 sudo npm i -g npm
 sudo npm install -g forever
-#lighting charge does not want to install outside of /usr/lib folder and needs root access!!
-sudo passwd
-su
+#lighting charge does not want to install outside of /usr/lib folder and needs root access
 cd /usr/lib
 sudo npm install lightning-charge
 cd ~
