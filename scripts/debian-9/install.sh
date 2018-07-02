@@ -4,13 +4,13 @@ NC='\033[0m'
 echo -e "${GREEN}Running install script for Debian 9 (stretch) systems${NC}"
 #Node.JS instalation
 cd ~
-echo "${GREEN}Installing Node.JS${NC}"
+echo -e "${GREEN}Installing Node.JS${NC}"
 sudo apt-get update
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 #ufw installation
-echo "${GREEN}Installing UFW...${NC}"
+echo -e "${GREEN}Installing UFW...${NC}"
 cd ~
 sudo apt-get install ufw
 sudo ufw disable
@@ -24,18 +24,18 @@ sudo ufw allow 9735/udp
 sudo ufw allow 9735 
 sudo ufw enable
 #bitcoin core installation
-echo "${GREEN}Installing Bitcoin Core...${NC}"
+echo -e "${GREEN}Installing Bitcoin Core...${NC}"
 mkdir bitcoinbin
 cd bitcoinbin 
 wget https://bitcoin.org/bin/bitcoin-core-0.16.1/bitcoin-0.16.1-x86_64-linux-gnu.tar.gz 
 tar -xzf bitcoin-0.16.1-x86_64-linux-gnu.tar.gz
 cd ~
 #immortal installation
-echo "${GREEN}Installing Immortal...${NC}"
+echo -e "${GREEN}Installing Immortal...${NC}"
 curl -s https://packagecloud.io/install/repositories/immortal/immortal/script.deb.sh | sudo bash 
 sudo apt-get install immortal 
 #lightning installation
-echo "${GREEN}Installing Lightning...${NC}"
+echo -e "${GREEN}Installing Lightning...${NC}"
 sudo apt-get update 
 sudo apt-get install -y autoconf automake build-essential git libtool libgmp-dev libsqlite3-dev python python3 net-tools zlib1g-dev
 mkdir builds
@@ -46,7 +46,7 @@ cd lightning
 make
 cd ~
 # symlink config
-echo "${GREEN}Creating symlinks...${NC}"
+echo -e "${GREEN}Creating symlinks...${NC}"
 export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.1/bin/bitcoind
 export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.1/bin/bitcoin-cli
 export PATH=$PATH:~/builds/lightning/lightningd
@@ -58,7 +58,7 @@ sudo ln -s ~/builds/lightning/lightningd/lightningd lightningd
 sudo ln -s ~/builds/lightning/cli/lightning-cli lightning-cli
 source ~/.bashrc
 source ~/.profile
-echo "${GREEN}Finishing up...${NC}"
+echo -e "${GREEN}Finishing up...${NC}"
 cd ~
 sudo npm i -g npm
 sudo npm install -g forever
@@ -67,4 +67,4 @@ mkdir chargedb
 mkdir .lightning
 cp ~/lightning-installer/scripts/gcs_mean_bitnami/config ~/.lightning/
 immortal bitcoind --daemon
-echo "${GREEN}Installation completed! Now wait 12+ hours for bitcoin node to fully sync!${NC}"
+echo -e "${GREEN}Installation completed! Now wait 12+ hours for bitcoin node to fully sync!${NC}"
