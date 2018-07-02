@@ -12,6 +12,7 @@ Clone the project to your home folder on your server and check instructions in s
 
 #### Supported systems
 
+- Debian 9 (strech)
 - Ubuntu 16.04 LTS
 - Google Cloud Services MEAN stack server by Bitnami (Debian)
 

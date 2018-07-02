@@ -1,0 +1,6 @@
+alias=YOUR_NODE_ALIAS
+rgb=FFFFFF
+bind-addr=YOUR_INTERNAL_IP
+announce-addr=YOUR_EXTERNAL_IP
+network=bitcoin
+log-file=~/lightning-logs/debug.log
