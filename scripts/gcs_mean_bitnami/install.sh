@@ -41,13 +41,13 @@ make
 cd ~
 # symlink config
 echo -e "${GREEN}Creating symlinks...${NC}"
-export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.1/bin/bitcoind
-export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.1/bin/bitcoin-cli
+export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.3/bin/bitcoind
+export PATH=$PATH:~/bitcoinbin/bitcoin-0.16.3/bin/bitcoin-cli
 export PATH=$PATH:~/builds/lightning/lightningd
 export PATH=$PATH:~/builds/lightning/cli
 cd /usr/bin/
-sudo ln -s ~/bitcoinbin/bitcoin-0.16.1/bin/bitcoind bitcoind
-sudo ln -s ~/bitcoinbin/bitcoin-0.16.1/bin/bitcoin-cli bitcoin-cli
+sudo ln -s ~/bitcoinbin/bitcoin-0.16.3/bin/bitcoind bitcoind
+sudo ln -s ~/bitcoinbin/bitcoin-0.16.3/bin/bitcoin-cli bitcoin-cli
 sudo ln -s ~/builds/lightning/lightningd/lightningd lightningd
 sudo ln -s ~/builds/lightning/cli/lightning-cli lightning-cli
 source ~/.bashrc
