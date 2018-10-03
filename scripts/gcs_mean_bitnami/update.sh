@@ -14,5 +14,6 @@ cd bitcoinbin
 wget https://bitcoin.org/bin/bitcoin-core-0.16.3/bitcoin-0.16.3-x86_64-linux-gnu.tar.gz
 tar -xzf bitcoin-0.16.3-x86_64-linux-gnu.tar.gz
 cd ~
+immortal bitcoind --daemon
 immortalctl start "*"
 echo -e "${GREEN}Update finished!${NC}"
