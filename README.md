@@ -11,6 +11,11 @@ Installs [Bitcoin Core](https://bitcoin.org/en/ 'Bitcoin Core') -> [c-lightning]
 
 Clone the project to your home folder on your server and check instructions in scripts/ folder for specific installer
 
+### Updating
+
+There is an update script available (in the same folder as install script) but needs improvement and further testing.
+_**USE WITH CAUTION!**_
+
 #### Supported systems
 
 - Debian 9 (stretch)
