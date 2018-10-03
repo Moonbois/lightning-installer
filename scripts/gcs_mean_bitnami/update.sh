@@ -7,6 +7,7 @@ echo -e "${GREEN}Stopping immortal and bitcoin daemon...${NC}"
 immortalctl stop "*"
 bitcoin-cli stop
 echo -e "${GREEN}Getting new bitcoin version...${NC}"
+cd ~
 rm -rf bitcoinbin/
 mkdir bitcoinbin
 cd bitcoinbin 
