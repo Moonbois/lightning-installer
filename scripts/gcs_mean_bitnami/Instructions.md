@@ -18,6 +18,7 @@ First step
 
 ```
 Edit the values in config file (This is for your Lightning Node)
+DO NOT USE TILDA (~) FOR YOUR HOME PATH, BUT THE WHOLE PATH!
 ```
 
 Second step

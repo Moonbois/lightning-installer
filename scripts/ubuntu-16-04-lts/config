@@ -3,4 +3,4 @@ rgb=FFFFFF
 bind-addr=YOUR_INTERNAL_IP
 announce-addr=YOUR_EXTERNAL_IP
 network=bitcoin
-log-file=~/lightning-logs/debug.log
+log-file=/ABSOLUTE/PATH/TO/HOME/FOLDER/lightning-logs/debug.log
