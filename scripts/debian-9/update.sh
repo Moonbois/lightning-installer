@@ -12,8 +12,8 @@ cd ~
 rm -rf bitcoinbin/
 mkdir bitcoinbin
 cd bitcoinbin 
-wget https://bitcoin.org/bin/bitcoin-core-0.16.3/bitcoin-0.16.3-x86_64-linux-gnu.tar.gz
-tar -xzf bitcoin-0.16.3-x86_64-linux-gnu.tar.gz
+wget https://bitcoin.org/bin/bitcoin-core-0.17.0/bitcoin-0.17.0-x86_64-linux-gnu.tar.gz
+tar -xzf bitcoin-0.17.0-x86_64-linux-gnu.tar.gz
 cd ~
 immortal bitcoind --daemon
 immortal lightningd
