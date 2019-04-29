@@ -56,9 +56,9 @@ echo -e "${GREEN}Finishing up...${NC}"
 cd ~
 sudo npm i -g npm
 sudo npm install -g forever
-#lighting charge does not want to install outside of /opt/bitnami/nodejs/lib folder
-cd /opt/bitnami/nodejs/lib
-sudo npm install lightning-charge
+sudo npm install -g yarn 
+#lighting charge has errors when installed with NPM, we use yarn instead
+sudo yarn global add lightning-charge
 cd ~
 mkdir lightning-logs
 mkdir chargedb
