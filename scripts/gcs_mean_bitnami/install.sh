@@ -21,8 +21,8 @@ sudo ufw enable
 echo -e "${GREEN}Installing Bitcoin Core...${NC}"
 mkdir bitcoinbin
 cd bitcoinbin 
-wget https://bitcoin.org/bin/bitcoin-core-0.19.0.1/bitcoin-0.19.0.1-x86_64-linux-gnu.tar.gz
-tar -xzf bitcoin-0.19.0.1-x86_64-linux-gnu.tar.gz
+wget https://bitcoin.org/bin/bitcoin-core-0.20.0/bitcoin-0.20.0-x86_64-linux-gnu.tar.gz
+tar -xzf bitcoin-0.20.0-x86_64-linux-gnu.tar.gz
 cd ~
 #immortal installation
 echo -e "${GREEN}Installing Immortal...${NC}"
@@ -41,13 +41,13 @@ make
 cd ~
 # symlink config
 echo -e "${GREEN}Creating symlinks...${NC}"
-export PATH=$PATH:~/bitcoinbin/bitcoin-0.19.0.1/bin/bitcoind
-export PATH=$PATH:~/bitcoinbin/bitcoin-0.19.0.1/bin/bitcoin-cli
+export PATH=$PATH:~/bitcoinbin/bitcoin-0.20.0/bin/bitcoind
+export PATH=$PATH:~/bitcoinbin/bitcoin-0.20.0/bin/bitcoin-cli
 export PATH=$PATH:~/builds/lightning/lightningd
 export PATH=$PATH:~/builds/lightning/cli
 cd /usr/bin/
-sudo ln -s ~/bitcoinbin/bitcoin-0.19.0.1/bin/bitcoind bitcoind
-sudo ln -s ~/bitcoinbin/bitcoin-0.19.0.1/bin/bitcoin-cli bitcoin-cli
+sudo ln -s ~/bitcoinbin/bitcoin-0.20.0/bin/bitcoind bitcoind
+sudo ln -s ~/bitcoinbin/bitcoin-0.20.0/bin/bitcoin-cli bitcoin-cli
 sudo ln -s ~/builds/lightning/lightningd/lightningd lightningd
 sudo ln -s ~/builds/lightning/cli/lightning-cli lightning-cli
 source ~/.bashrc
